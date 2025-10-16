@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary App Colors -->
+    <color name="primaryColor">#6200EE</color>
+    <color name="secondaryColor">#03DAC5</color>
+    <color name="accentColor">#FF9800</color>
+
+    <!-- Backgrounds -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+
+    <!-- Navigation item states -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#00796B</color> <!-- Dark Teal -->
+    <color name="red">#F44336</color> <!-- Material Red -->
+    <color name="orange">#FFA500</color>
+    <color name="purple_200">#BB86FC</color>
+
+
+
+
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Primary button -->
+    <style name="WellBeButton.Primary" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/primaryColor</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Secondary button -->
+    <style name="WellBeButton.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:backgroundTint">@color/secondaryColor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Accent button -->
+    <style name="WellBeButton.Accent" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/accentColor</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
