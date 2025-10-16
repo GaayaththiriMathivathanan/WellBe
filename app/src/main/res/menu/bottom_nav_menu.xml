@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:contentDescription="Go to Home" />
+
+    <item
+        android:id="@+id/nav_habits"
+        android:icon="@drawable/ic_habits"
+        android:title="Habits"
+        android:contentDescription="Track your daily habits" />
+
+    <item
+        android:id="@+id/nav_mood"
+        android:icon="@drawable/ic_mood"
+        android:title="Mood"
+        android:contentDescription="Track your mood" />
+
+    <item
+        android:id="@+id/nav_steps"
+        android:icon="@drawable/ic_steps"
+        android:title="Steps"
+        android:contentDescription="Check your step count" />
+
+    <item
+        android:id="@+id/nav_bmi"
+        android:icon="@drawable/ic_bmi"
+        android:title="BMI"
+        android:contentDescription="Calculate Body Mass Index" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        android:contentDescription="Open Settings" />
+
+</menu>

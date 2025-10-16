@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textHistoryDate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="2025-10-02"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:padding="8dp"
+    android:background="@android:color/darker_gray"
+    android:textColor="@android:color/white"/>

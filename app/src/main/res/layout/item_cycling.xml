@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/card_background">
+
+    <TextView
+        android:id="@+id/textCycleStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2025-10-01\nDuration: 30:15\nDistance: 4.2 km\nCalories: 180 kcal"
+        android:textSize="16sp"
+        android:textColor="@color/black" />
+</LinearLayout>

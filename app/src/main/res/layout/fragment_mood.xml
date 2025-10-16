@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="90dp"> <!-- prevent button from being hidden by bottom nav -->
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How are you feeling today?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Emoji row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/moodHappy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😊"
+                android:textSize="36sp"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/moodSad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😢"
+                android:textSize="36sp"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/moodAngry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😡"
+                android:textSize="36sp"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/moodLove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😍"
+                android:textSize="36sp"
+                android:padding="16dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSaveMood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Mood"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:id="@+id/textHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No moods logged yet"
+            android:textSize="16sp"
+            android:layout_marginTop="32dp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <!-- Mood chart -->
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/moodChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnViewHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Full Mood History"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
